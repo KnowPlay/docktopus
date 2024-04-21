@@ -47,7 +47,7 @@
 <!-- ABOUT -->
 ## :sunflower: About
 <!-- Add your project description here -->
-This is a dedicated space for exploring, learning, troubleshooting, and experimenting with Docker's functionalities and capabilities.
+This is a dedicated space for experimenting with Docker's functionalities and capabilities.
 
 ### :wrench: Tech Stack
 
