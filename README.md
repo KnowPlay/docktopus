@@ -1,22 +1,22 @@
 <!-- PROJECT SUMMARY -->
 <div align="center">
-  <h1 align="center">Project Title</h1>
+  <h1 align="center">Welcome to Docktopus 🐙</h1>
 
   <p align="center">
-    {short description or subtitle}
+    {a Docker exploration lab}
     <br>
-    <a href="https://github.com/github_username/repo_name/issues">» submit a suggestion </a>
+    <a href="https://github.com/KnowPlay/docktopus/issues">» submit a suggestion </a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">» report a bug </a>
+    <a href="https://github.com/KnowPlay/docktopus/issues">» report a bug </a>
     ·
-    <a href="https://github.com/github_username/repo_name">» contact </a>
+    <a href="https://github.com/KnowPlay/docktopus">» contact </a>
   </p>
 
   <div align="center">
 
-![GitHub forks](https://img.shields.io/github/forks/github_username/repo-name?style=social) ![GitHub stars](https://img.shields.io/github/stars/github_username/repo-name?style=social)
+![GitHub forks](https://img.shields.io/github/forks/KnowPlay/docktopus?style=social) ![GitHub stars](https://img.shields.io/github/stars/KnowPlay/docktopus?style=social)
 
-![contributions welcome](https://img.shields.io/badge/contributions-welcome-purple.svg?style=flat) ![GitHub License](https://img.shields.io/github/license/github_username/repo-name?color=green) ![GitHub Pull Request (open)](https://img.shields.io/github/issues-pr/github_username/repo-name?color=blue) ![GitHub last commit](https://img.shields.io/github/last-commit/github_username/repo-name?color=pink)
+![contributions welcome](https://img.shields.io/badge/contributions-welcome-purple.svg?style=flat) ![GitHub License](https://img.shields.io/github/license/KnowPlay/docktopus?color=green) ![GitHub Pull Request (open)](https://img.shields.io/github/issues-pr/KnowPlay/docktopus?color=blue) ![GitHub last commit](https://img.shields.io/github/last-commit/KnowPlay/docktopus?color=pink)
 
   </div>
 </div>
@@ -47,13 +47,17 @@
 <!-- ABOUT -->
 ## :sunflower: About
 <!-- Add your project description here -->
+This is a dedicated space for exploring, learning, troubleshooting, and experimenting with Docker's functionalities and capabilities.
 
 ### :wrench: Tech Stack
 
-- [ ] 
-- [ ] 
+- [ ] `Docker`
+- [ ] `Node.js & npm`
+- [ ] `React.js & Vite`
+- [ ] `MongoDB & Express.js`
+- [ ] `Next.js & Tailwind CSS`
 
-### :mushroom: Features
+### :mushroom: Feature
 
 - [ ] 
 - [ ] 
