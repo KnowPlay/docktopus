@@ -48,3 +48,61 @@ Docker is an open-source platform that automates the deployment of applications 
 > [Automated Builds](https://docs.docker.com/docker-hub/builds/) can automatically build container images from source code in an external repository (like GitHub or Bitbucket) and push them to Docker Hub whenever the source code is updated.
 
 > [Webhooks](https://docs.docker.com/docker-hub/webhooks/) allows triggering actions in other services or toolchains when a new image is pushed to a repository on Docker Hub. This feature is useful for integrating Docker Hub with continuous integration workflows.
+
+## Processes
+
+### Create Docker Images
+
+#### Dockerfile: most used keywords
+
+> FROM `image[:tag] [AS name]`
+```
+# choose the base image to use for the new image
+FROM ubuntu:20.04
+```
+> WORKDIR
+```
+# set the working directory for the full instructions
+WORKDIR /app
+```
+> COPY `[--chown=<user>:<group>] <src>... <dest>`
+```
+# copy the files and directories from the build content to the image
+COPY . /app
+```
+> RUN `command`
+```
+# execute command in shell during image build
+RUN npm run dev
+```
+> EXPOSE `<port> [<port>/<protocol>...]`
+```
+# inform docker that the container will listen on specific ports
+EXPOSE 3000
+```
+> ENV `KEY=VALUE`
+```
+# sets environmental variables during build
+ENV NODE_ENV=production
+```
+> ARG `<name>[=<default value>]`
+```
+# defines build time variables
+ARG NODE_VERSION=20
+```
+> VOLUME `["/data]`
+```
+# create mount point for external storage
+VOLUME /myvol
+```
+> {CMD != ENTRYPOINT}: CMD is a default executable, flexible, and can be overridden, while ENTRYPOINT is a fixed starting point and can't be easily overridden. If both CMD and ENTRYPOINT is used, it's passed through ENTRYPOINT.
+> CMD `["executable", "param1", "param2"]`
+```
+# default command to execute when the container starts
+CMD ["param1", "param2"]
+```
+> ENTRYPOINT `CMD ["executable", "param1", "param2"]`
+```
+# specifies the default exeutable to be run when the container starts 
+CMD command "param1 param2
+```
