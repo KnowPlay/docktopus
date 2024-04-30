@@ -67,12 +67,31 @@ This is a dedicated space for experimenting with Docker's functionalities and ca
 
 ### :honey_pot: Setup
 <!-- Add setup instructions here -->
+> Docker Desktop:  Settings > Advanced > System
 
-### :apple: Development
+### :apple: Test
 <!-- Add development details here -->
-* []()
-* []()
-* []()
+* [x] [ubuntu](https://hub.docker.com/_/ubuntu)
+```
+docker pull ubuntu
+docker run-it ubuntu
+```
+
+* [x] [node.js](https://hub.docker.com/_/node)
+```
+# pull
+docker pull node
+# create a Dockerfile
+"hello-docker/Dockerfile"
+# build
+cd hello-docker
+docker build -t hello-docker .
+# check built images
+docker images
+# run/containerize
+docker run hello-docker
+docker run -it hello-docker sh
+```
 
 <!-- CONTRIBUTING -->
 ## :ear_of_rice: Contributing
